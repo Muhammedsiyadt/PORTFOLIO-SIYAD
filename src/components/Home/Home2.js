@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/my.jpeg";
+import me from "../../Assets/me.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,49 +19,62 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I have fallen in love with programming and have learned quite a bit along the way, I think... 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Python and Django</b>
-              </i>
-              <br />
-              <br />
-              My fields of interest include building new &nbsp;
-              <i>
-                <b className="purple"> web applications and products, </b> particularly those related to {" "}
-                <b className="purple">
-                  Python.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              using <b className="purple">Django</b> and
+              I am a passionate full-stack developer with a focus on the MERN
+              stack, eager to build innovative web applications and solutions.
+              Over the years, I've honed my skills in various technologies and
+              frameworks.
+              <br />I am fluent in both frontend and backend technologies like
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript 
+                  MongoDB, Express.js, React.js, and Node.js (MERN stack)
                 </b>
               </i>
-              {/* &nbsp; 
+              , allowing me to build robust and scalable web applications.
+              <br />
+              My fields of interest include creating dynamic &nbsp;
               <i>
-                <b className="purple"> React.js </b>
-              </i> */}
+                <b className="purple">web applications and products,</b>{" "}
+                particularly those that leverage modern JavaScript frameworks
+                and libraries.
+              </i>
+              <br />
+              Additionally, I have experience with{" "}
+              <b className="purple">PostgreSQL</b>,
+              <i>
+                <b className="purple"> Firebase, </b>
+              </i>
+              and{" "}
+              <i>
+                <b className="purple">Cloudinary</b>
+              </i>{" "}
+              to handle data, authentication, and media management in my
+              projects.
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              using
+              <b className="purple"> React.js</b>,
+              <i>
+                <b className="purple">
+                  {" "}
+                  Node.js, and modern cloud technologies.
+                </b>
+              </i>
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img 
-                src={myImg} 
-                alt="avatar" 
-                style={{ 
-                    borderRadius: '50%', 
-                    width: '250px', // Adjust size as needed
-                    height: '250px', // Adjust size as needed
-                    objectFit: 'cover' 
-                }} 
-            />
+              <img
+                src={me}
+                alt="avatar"
+                style={{
+                  borderRadius: "50%",
+                  width: "250px", // Adjust size as needed
+                  height: "250px", // Adjust size as needed
+                  objectFit: "cover",
+                }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -74,7 +87,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/SUHAIBCHEMBAN"
+                  href="https://github.com/Muhammedsiyadt"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,7 +95,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://x.com/shuhaiibc"
                   target="_blank"
@@ -91,10 +104,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/suhaib-c-114b10292/"
+                  href="https://www.linkedin.com/in/muhammedsiyadt/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -104,7 +117,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/_.shuhaiiib/"
+                  href="https://www.instagram.com/siyad___._10/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
