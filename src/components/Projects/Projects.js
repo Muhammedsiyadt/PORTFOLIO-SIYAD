@@ -11,7 +11,7 @@ import cammery from "../../Assets/Projects/Cammery.png";
 import burger from "../../Assets/Projects/Burger King.png";
 import vivo from "../../Assets/Projects/Vivo.png";
 import herbal from "../../Assets/Projects/Herbal.png";
-import userauth from "../../Assets/Projects/user.jfif";
+import crud from "../../Assets/Projects/crud.png";  
 
 function Projects() {
   return (
@@ -38,9 +38,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={userauth}
+              imgPath={crud}
               isBlog={false}
-              title="USER AUTHENTICATION"
+              title="CRUD APPLICATION"
               description="This project is a robust user authentication system developed using Python and Django. The system provides essential features such as user registration, login, logout, and password management, ensuring secure access and management of user accounts. The aim is to offer a secure and efficient authentication solution, demonstrating proficiency in Django's authentication framework and security practices."
               ghLink="https://github.com/SUHAIBCHEMBAN/Python-django-project  "
               demoLink="https://python-django-project.vercel.app/"
