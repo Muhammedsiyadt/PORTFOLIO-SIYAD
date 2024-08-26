@@ -3,14 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import fonekart from "../../Assets/Projects/fone.jpeg";
-import evc from "../../Assets/Projects/Event Calendar.png";
-import qrc from "../../Assets/Projects/QR Code.png";
-import bluestar from "../../Assets/Projects/Blue Star.png";
-import maggi from "../../Assets/Projects/Maggi.png";
-import cammery from "../../Assets/Projects/Cammery.png";
-import burger from "../../Assets/Projects/Burger King.png";
-import vivo from "../../Assets/Projects/Vivo.png";
-import herbal from "../../Assets/Projects/Herbal.png";
+import netflix_react from "../../Assets/Projects/netflix-react.png";
+import olx from "../../Assets/Projects/olx.png";
+import todo from "../../Assets/Projects/todo.png";
+import portfolio from "../../Assets/Projects/port.png";
+import crud_html from "../../Assets/Projects/crud-html.png";
+import foab from "../../Assets/Projects/foab.png"; 
+import net from "../../Assets/Projects/netflix-html.png";
+import home from "../../Assets/Projects/home.png";
 import crud from "../../Assets/Projects/crud.png";  
 
 function Projects() {
@@ -30,7 +30,7 @@ function Projects() {
               imgPath={fonekart}
               isBlog={false}
               title="FONEKART - [ E-COMMERCE ]"
-              description="“Fonekart” is a unique e-commerce platform that emphasizes a holistic shopping experience. It features JWT token authentication, OTP verification for security, and includes product filtering, convenient payment options, and streamlined admin controls within the MVC pattern. Key technologies: HTML5, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB, AWS, GitHub."
+              description="“Fonekart” is a robust e-commerce platform developed with a focus on delivering a complete shopping experience. It incorporates JWT token authentication and OTP verification for enhanced security. The platform features product filtering, easy payment options, and streamlined admin controls, built with HTML5, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB, AWS, and GitHub. "
               ghLink="https://github.com/Muhammedsiyadt/Fonekart"
               demoLink="https://www.fonekartservice.live/"
             />
@@ -40,102 +40,102 @@ function Projects() {
             <ProjectCard
               imgPath={crud}
               isBlog={false}
-              title="CRUD APPLICATION"
-              description="This project is a robust user authentication system developed using Python and Django. The system provides essential features such as user registration, login, logout, and password management, ensuring secure access and management of user accounts. The aim is to offer a secure and efficient authentication solution, demonstrating proficiency in Django's authentication framework and security practices."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Python-django-project  "
-              demoLink="https://python-django-project.vercel.app/"
+              title="CRUD APPLICATION IN REACT"
+              description="This project is a comprehensive CRUD application built with ReactJS, showcasing advanced state management with Redux and secure authentication using JWT. It integrates Cloudinary for efficient image storage and features elegant styles for a polished user interface. The application demonstrates proficiency in modern web development practices and provides a seamless user experience."
+              ghLink="https://github.com/Muhammedsiyadt/CRUD-React  "
+              demoLink="https://crud-App.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={evc}
+              imgPath={netflix_react} 
               isBlog={false}
-              title="EVENT CALENDAR IN REACT"
-              description="This project is an interactive event calendar application developed using React. The application allows users to add and remove events dynamically without needing to reload the page, offering a seamless user experience. The goal is to provide a functional and user-friendly tool for managing events, showcasing advanced React skills and state management."
-              ghLink="https://github.com/SUHAIBCHEMBAN/MyCalendar-RJS"
-              demoLink="https://my-calendar-rjs.vercel.app/"
+              title="NETFLIX - CLONE IN REACT"
+              description=" created a fully responsive Netflix clone using React, which allowed me to significantly deepen my expertise in React and explore Firebase for secure user data storage and authentication. This project offered valuable insights into frontend development and helped me refine my full-stack skills, including state management and integrating third-party services. Building this clone provided a comprehensive understanding of developing modern, dynamic web applications."
+              ghLink="https://github.com/Muhammedsiyadt/Netflix-Clone-React"
+              demoLink="https://netflix-clone-react-qfrdp5rpt-muhammedsiyadts-projects.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={qrc}
+              imgPath={olx}
               isBlog={false}
-              title="QR CODE GENERATOR IN REACT" 
-              description="This project is an interactive QR code generator developed using React. The application allows users to create custom QR codes quickly and easily by entering text or URLs. The generated QR codes can be scanned with any standard QR code reader, making it a useful tool for sharing information in a convenient and modern way. The aim is to provide a user-friendly and efficient QR code generation solution, showcasing proficiency in React."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Qr-Code-In-React"
-              demoLink="https://qr-code-in-react.vercel.app/"
+              title="OLX - CLONE IN REACT" 
+              description="This app allows users to seamlessly buy and sell items, just like the real OLX platform. I've implemented login and signup functionality with full validation and detailed error messages for a smooth user experience. Additionally, users can upload images directly to Firebase, making the app both functional and secure. Working on this project has been an incredible learning experience, especially with integrating Firebase for authentication and storage!"
+              ghLink="https://github.com/Muhammedsiyadt/olx-clone-React"
+              demoLink="https://olx-clone-react-git-main-muhammedsiyadts-projects.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bluestar}
+              imgPath={todo}
               isBlog={false}
-              title="BLUE STAR CLONE WEB"
-              description="
-                  Welcome to the Blue Start Clone, This project is a responsive front-end web clone of the Blue Star website, built using HTML, CSS, media queries, and Bootstrap. The clone replicates the design and functionality of the original Blue Star site, featuring core components such as the homepage, product sections, promotional banners, and an intuitive navigation system. The aim is to create a similar user experience to the original, demonstrating advanced web development and design skills."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Blue-Star"
-              demoLink="https://suhaibchemban.github.io/Blue-Star/"
+              title="TO - DO APP IN REACT"
+              description="The To-Do App is a React.js application designed to streamline task management. It offers users the ability to add new tasks, edit existing ones, and delete tasks as needed. Users can also mark tasks as completed, which moves them to a separate section for better organization. The app features an intuitive interface that makes it easy to navigate and manage tasks, helping users stay organized and on top of their daily responsibilities."
+              ghLink="https://github.com/Muhammedsiyadt/to-do-in_react"
+              demoLink="https://to-do-in-react-jjyz.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={maggi}
+              imgPath={portfolio}
               isBlog={false}
-              title="MAGGI CLONE WEBSITE"
-              description="
-                Welcome to the Maggi Clone, This project is a responsive front-end web clone of the Maggi website, developed using HTML, CSS, and media queries. The clone captures the design and functionality of the original Maggi site, including key elements such as the homepage, product sections, promotional banners, and a seamless navigation system. The goal is to provide a similar user experience to the original site while showcasing advanced web development skills."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Maggi"
-              demoLink="https://suhaibchemban.github.io/Maggi/"
+              title="PORTFOLIO IN REACT"
+              description="The React Portfolio is a stylish and responsive showcase of my professional work, developed using React.js and Vite. It features a sleek, modern design with sections dedicated to my projects, skills, and contact details. The portfolio is fully responsive, ensuring an optimal viewing experience across various devices. It highlights my development expertise and provides an intuitive interface for visitors to explore my work and get in touch."
+              ghLink="https://github.com/Muhammedsiyadt/PORTFOLIO-ReactJS"
+              demoLink="https://portfolio-react-js-six.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cammery}
+              imgPath={crud_html} 
               isBlog={false}
-              title="CAMMERY CLONE WEB"
-              description="Welcome to the Cammery Ice Cream Clone, This project is a front-end web clone of the Camery Ice Cream website, crafted using HTML and CSS. The clone replicates the look and feel of the original Camery Ice Cream site, featuring key components such as the homepage, product listings, promotional banners, and an intuitive navigation system. The objective is to emulate the visual design and user interface, demonstrating skills in web development and design."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Cammery"
-              demoLink="https://suhaibchemban.github.io/Cammery/"
+              title="CRUD - APP IN HTML"
+              description="This project is a comprehensive CRUD application developed with HTML, CSS, and Bootstrap for a responsive and stylish front-end, and Node.js with Express.js for a robust back-end. Leveraging MongoDB for efficient data management, it provides full create, read, update, and delete functionalities with a sleek, user-friendly interface. The project highlights advanced full-stack development skills and the effective integration of modern web technologies."
+              ghLink="https://github.com/Muhammedsiyadt/Web-application"
+              demoLink="https://muhammedsiyadt.github.io/Web-application/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={burger}
+              imgPath={home}
               isBlog={false}
-              title="BURGER KING CLONE WEB"
-              description="Welcome to the Burger King Clone,This project is a front-end web clone of the Burger King website, designed using HTML and CSS. The clone replicates the visual design and layout of the official Burger King site, featuring elements such as the homepage, menu sections, promotional banners, and navigation. The aim is to provide a similar user experience to the original, showcasing proficiency in web development and design principles."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Burgurking"
-              demoLink="https://suhaibchemban.github.io/Burgurking/"
+              title="BUILDCON RESPONSIVE WEB"
+              description="A responsive website named Buildcon using HTML, CSS, Bootstrap, and media queries. The project features a modern, flexible design that adapts seamlessly to various screen sizes and devices. With Bootstrap for layout and styling and media queries for fine-tuned responsiveness, Buildcon delivers a user-friendly and visually appealing interface, demonstrating proficiency in creating adaptable and accessible web experiences."
+              ghLink="https://github.com/Muhammedsiyadt/Buildcone"
+              demoLink="https://muhammedsiyadt.github.io/Buildcone/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vivo}
+              imgPath={foab}
               isBlog={false}
-              title="VIVO CLONE WEB"
-              description="Welcome to the VIVO Clone,This project is a front-end web clone of the Vivo website, created using HTML and CSS. The clone captures the design and functionality of the original Vivo site, including essential elements such as the homepage, product sections, promotional banners, and a smooth navigation system. The goal is to provide a user experience similar to the original site, showcasing proficiency in web development and design."
-              ghLink="https://github.com/SUHAIBCHEMBAN/vivo"
-              demoLink="https://suhaibchemban.github.io/vivo/"
+              title="FOAB STATIC WEB"
+              description="FOAB is a static website crafted with HTML and CSS, designed to offer a clean and visually appealing online presence. This project showcases a straightforward yet elegant design, focusing on delivering a smooth and engaging user experience. With its simple, static nature, FOAB demonstrates proficiency in front-end development using core web technologies, providing a polished and responsive interface without the need for complex back-end interactions."
+              ghLink="https://github.com/Muhammedsiyadt/foab"
+              demoLink="https://muhammedsiyadt.github.io/foab/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={herbal}
+              imgPath={net}
               isBlog={false}
-              title="HERBAL CLONE WEB"
-              description="Welcome to the Herbal Clone,This project is a front-end web clone of the Herbal website, developed using HTML and CSS. The clone replicates the design and functionality of the original Herbal site, featuring key elements such as the homepage, product sections, promotional banners, and an intuitive navigation system. The objective is to provide a similar user experience to the original site, showcasing your skills in web development and design."
-              ghLink="https://github.com/SUHAIBCHEMBAN/Herbal"
-              demoLink="https://suhaibchemban.github.io/Herbal/"
+              title="NETFLIX STATIC WEB"
+              description="Static Netflix-themed website using HTML and CSS. This project features a visually appealing design that mimics the look and feel of Netflix's user interface. It showcases a clean, responsive layout with elegant styling, providing an engaging and polished experience without any dynamic functionality. This project highlights front-end development skills and an ability to create a visually stunning interface inspired by a popular streaming platform."
+              ghLink="https://github.com/Muhammedsiyadt/netflix"
+              demoLink="https://muhammedsiyadt.github.io/netflix/"
             />
           </Col>
+
+          
 
         </Row>
       </Container>
