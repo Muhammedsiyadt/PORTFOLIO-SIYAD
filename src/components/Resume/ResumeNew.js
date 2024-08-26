@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Suhaib's Resume.pdf";
+import pdf from "../../Assets/../Assets/cv.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -23,7 +23,7 @@ function ResumeNew() {
         
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.3 : 0.4} />
+            <Page pageNumber={1} scale={width > 786 ? 1 : 0.4} />
           </Document>
         </Row>
 
@@ -31,7 +31,7 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={pdf}
-            download="Suhaib's Resume.pdf"
+            download="Muhammed Siyad CV.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />

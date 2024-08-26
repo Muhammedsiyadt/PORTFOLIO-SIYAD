@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import mcare from "../../Assets/Projects/M-CARE.png";
+import fonekart from "../../Assets/Projects/fone.jpeg";
 import evc from "../../Assets/Projects/Event Calendar.png";
 import qrc from "../../Assets/Projects/QR Code.png";
 import bluestar from "../../Assets/Projects/Blue Star.png";
@@ -27,12 +27,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mcare}
+              imgPath={fonekart}
               isBlog={false}
-              title="HOSPITAL MANAGEMENT"
-              description="This Hospital Management System is a comprehensive project developed using Python and Django. It streamlines and automates various hospital operations, ensuring efficient patient management, appointment scheduling, staff coordination, and record-keeping. The system features an intuitive interface, robust database management, and secure access controls, making it an ideal solution for enhancing hospital administration and patient care."
-              ghLink="https://github.com/SUHAIBCHEMBAN/M-CARE"
-              demoLink="https://www.mcareclinicservice.live/"
+              title="FONEKART - [ E-COMMERCE ]"
+              description="“Fonekart” is a unique e-commerce platform that emphasizes a holistic shopping experience. It features JWT token authentication, OTP verification for security, and includes product filtering, convenient payment options, and streamlined admin controls within the MVC pattern. Key technologies: HTML5, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB, AWS, GitHub."
+              ghLink="https://github.com/Muhammedsiyadt/Fonekart"
+              demoLink="https://www.fonekartservice.live/"
             />
           </Col>
 

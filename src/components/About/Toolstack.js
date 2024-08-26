@@ -15,16 +15,10 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNotion />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiCodepen />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiEclipseide />
-      </Col>
-       <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
