@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import WhatsAppButton from "../watsapp/Watsapp";
 
 function Home() {
   return (
@@ -39,9 +40,11 @@ function Home() {
               />
             </Col>
           </Row>
+          
         </Container>
       </Container>
       <Home2 />
+        <WhatsAppButton />
     </section>
   );
 }
